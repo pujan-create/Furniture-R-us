@@ -1,0 +1,181 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float: left;
+  width: 20%;
+text-align: center;
+
+}
+
+
+.Animation{
+  
+  
+  animation-name: example;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  text-align:center;
+  font-size:35px;
+  color:#123C94; 
+ text-shadow: 2px 2px 5px red;
+}
+
+@keyframes example {
+  from {color:#123C94;
+font-size:35px;}
+  to {color:Brown ;
+font-size: 40px;}
+}
+
+
+.list {
+ 
+  animation-name: list;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  text-align:center;
+  font-size:25px;
+  color:#123C94; 
+
+}
+
+@keyframes list {
+  from {color:#123C94}
+  to {color:green ;}
+
+
+
+}
+
+
+
+.menu a {
+
+  padding: 8px;
+  margin-top: 7px;
+  display: block;
+  width: 100%;
+color: #123C94;
+  text-shadow: 2px 2px 5px grey;
+  
+  Font-size: 25px;
+  
+border-bottom: 4px solid white;
+
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+border-left: 4px solid white;
+border-right: 4px solid white;
+text-aligh: center;
+font-size: 25px;
+background-color: white;
+
+}
+.right {
+
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+height: 100%;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+
+</style>
+</head>
+<body style=" background-image: url('back.jpg');font-family:Verdana;color:#123C94;">
+
+<div style="padding:15px;border-bottom: 4px solid white;">
+  <h1 class="Animation" > TRADING HOURS </h1>
+ 
+</div>
+
+<div style="overflow:auto">
+  <div class="menu">
+
+
+
+<a href="index.html">HOME</a>
+<a href="furniture.htm">PRODUCTS</a>
+<a href="aboutus.html">ABOUT US</a>
+<a href="contact.html">CONTACT US</a>
+<a href="openingHours.html">TRADING HOURS</a>
+
+ 
+  </div>
+
+  <div class="main">
+ <ul class="list">
+      <li>Monday  8:30 AM -5:00 PM</li>
+<br>
+      <li>Tuesday 11:30 AM - 5:00 PM</li>
+<br>
+      <li>Wednesday 8:30 AM - 5:00 PM</li>
+<br>
+      <li>Thursday 8:30 AM - 5:00 PM </li>
+<br>
+      <li>Friday 8:30 AM - 5:00 PM</li>
+<br>
+      <li>Saturday 8:30 AM - 3:00 PM </li>
+<br>
+      <li>Sunday 10 AM - 2:00 PM </li>
+      
+    </ul>
+</br>
+<P style="color: Red";> These trading hours may be subjected to change during public holidays. The Trading hours will be updated for public Holidays </p>
+
+
+  </div>
+
+  <div class="right">
+    <h2 style="  text-shadow: 2px 2px 5px grey;">What?</h2>
+    <p>All kinds of furniture: From antique to modern, from classic to Royal.</p>
+    <h2 style="  text-shadow: 2px 2px 5px grey;">Where?</h2>
+    <p>All over Australia over 50 stores in 6 states.</p>
+    <h2 style="  text-shadow: 2px 2px 5px grey;">Price?</h2>
+    <p>UnBeatable price Guranteed</p>
+  </div>
+</div>
+</body>
+<footer>
+<div style="text-align:center;padding:30px;margin-top:1px;font-size:30px; border-top: 4px solid white;"> 
+      <p1>For more Inquiry</p1> <br>
+      <a href="mailto:pujankatwal1998@gmail.com ">Mail us</a>
+      <br >
+      <a href="tel:0420608952">Call us </a>
+      <br >
+      copyright@pujan&Bipin Assignment
+
+
+</div>
+
+</footer>
+</html>
